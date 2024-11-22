@@ -1,0 +1,89 @@
+/* Basic page setup */
+.login-container 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4; /* Soft background */
+}
+
+/* Login box styling */
+.login-box 
+{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 80%;
+  max-width: 400px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input field styles */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box; /* Ensure proper padding/width */
+}
+
+/* Submit button */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Sign-up prompt */
+p {
+  margin-top: 20px;
+}
+
+p span {
+  color: #007bff;
+  cursor: pointer;
+}
+
+p span:hover {
+  text-decoration: underline;
+}
+
+/* Google login button */
+.google-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #4285F4; /* Google blue color */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.google-btn:hover {
+  background-color: #357ae8; /* Darker blue on hover */
+}
+
+.google-btn:active {
+  background-color: #3367d6; /* Even darker blue when clicked */
+}
